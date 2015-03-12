@@ -1,1 +1,3 @@
-console.log('apdd d pdds');
+(function(){
+    console.log('apdd d pdds');
+})();

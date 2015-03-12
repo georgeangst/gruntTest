@@ -1,4 +1,7 @@
-console.log('apdd d pdds');
+(function(){
+    console.log('apdd d pdds');
+})();
+
 (function(){
 	'use strict';
 	var logHren = 'hren starting';

@@ -39,24 +39,15 @@ module.exports = function(grunt) {
 		watch: {
 			scripts: {
 				files: ['public/js/*.js'],
-				tasks: ['concat', 'uglify', 'jshint'],
-				options: {
-					nospawn: false
-				}
+				tasks: ['concat', 'uglify', 'jshint']
 			},
 			images: {
 				files: ['public/img/**/*.{png,jpg,gif}'],
-				tasks: ['imagemin'],
-				options: {
-					nospawn: false
-				}
+				tasks: ['imagemin']
 			},
 			css: {
 				files: ['public/css/*.scss'],
-				tasks: ['sass'],
-				options: {
-					nospawn: false
-				}
+				tasks: ['sass']
 			}
 		}
 
